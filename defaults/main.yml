@@ -7,6 +7,7 @@ redis_requirements: ['gcc', 'make', 'libc6-dev', 'tcl8.5']
 redis_service: redis-server             # Name of the redis service
 redis_user: redis
 redis_manage_service: True              # Manage service (start/enabled)
+redis_upstart: False
 redis_dir: /opt/redis
 redis_run_dir: /var/run/redis
 redis_log_dir: /var/log/redis
